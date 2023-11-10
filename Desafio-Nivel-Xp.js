@@ -1,7 +1,7 @@
 //Desafio do Nível do Herói
 
 let NomeHeroi = "Radamés"
-let NivelXp= 8500
+let NivelXp= 12500
 let Nivel = ""
 
 if(NivelXp <= 1000){
@@ -20,5 +20,8 @@ if(NivelXp <= 1000){
     Nivel = "Ascendente"
 }else if(NivelXp <=10000){
     Nivel = "Imortal"
+}else if(NivelXp >=10001){
+    Nivel = "Radiante"
 }
-    console.log("o Herói de nome: " + NomeHeroi + " está no nivel: " + Nivel)
+
+    console.log("o Herói de nome: " + NomeHeroi + " está no nível: " + Nivel)
